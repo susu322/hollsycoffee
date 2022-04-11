@@ -28,7 +28,7 @@ $(function(){
       slidesToShow: 3,
       arrows : false,
       autoplay: true,
-      autoplaySpeed : 2800,
+      autoplaySpeed : 2300,
       pauseOnHover : true
     });
 
