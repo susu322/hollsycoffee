@@ -2,8 +2,12 @@
 
 /* +++++++++++++++++++++++++++++++++ 공통 +++++++++++++++++++++++++++++++++ */
 *{margin:0; padding:0;}
-.inner{max-width: 1440px; margin: 0 auto;}
+.inner{max-width: 1440px; margin: 0 auto; min-width: 1100px;}
 body{background-image: url(../images/bg.png);}
+
+/* +++++++++++++++++++++++++++++++++ 픽스 +++++++++++++++++++++++++++++++++ */
+#chatbot{position: fixed; z-index: 99999; bottom: 30px; right: 120px;}
+#popup{position: fixed; z-index: 99999; bottom: 30px; right: 280px;}
 
 /* +++++++++++++++++++++++++++++++++ 헤더 +++++++++++++++++++++++++++++++++ */
 #header{background-color: rgba(0, 0, 0, 0.03); height: 120px; width: 100%; position: absolute;
@@ -79,9 +83,9 @@ body{background-image: url(../images/bg.png);}
 #section1 .solid::before{content: ''; display:block; width:1px; height:20px;
                          background: #fff; position: absolute; left:0}
 /* 공지사항, 보도자료 내용 */    
-#section2{margin-top: 100px; margin-bottom: 100px;}
+#section2{margin-top: 170px; margin-bottom: 190px;}
 #section2 h3{display: inline-block; width: 180px; margin-left: 43%; font-size: 30px;
-             margin-bottom: 60px; font-size: 2rem;
+             margin-bottom: 70px; font-size: 2rem;
              background-image: url(../images/redcircle.png); background-repeat: no-repeat;
              background-position: top right;}
 #section2 ul{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;}
@@ -96,7 +100,7 @@ body{background-image: url(../images/bg.png);}
                                     width: 18px; height: 39px; background: none;
                                     background-image: url(../images/main_bt4.png); background-repeat: no-repeat;}
 
-#section3{margin-bottom: 200px;}
+#section3{margin-bottom: 180px;}
 #section3 .appbanner{position: absolute;}
 #section3 .inner{position: relative;}
 #section3 p{display: inline;}
@@ -111,17 +115,18 @@ body{background-image: url(../images/bg.png);}
 #section3 .button{padding-top: 32px; padding-left: 838px;}
 #section3 .bt1{margin-right: 30px;}
 
-#section4{margin-bottom: 100px;}
+#section4{margin-bottom: 150px;}
 #section4 h3{display: inline-block; width: 170px; margin-left: 45%; font-size: 30px;
             margin-bottom: 10px; font-size: 2rem;
             background-image: url(../images/redcircle.png); background-repeat: no-repeat;
             background-position: top right;}
 #section4 .sns_id{ text-align: center; font-size: 16px; margin-left: 9px; margin-bottom: 70px;}
 #section4 ul{display: flex; flex-direction: row; flex-wrap: nowrap; margin-left: 57px;}
-#section4 ul li>img{border: 0; border-radius: 25px;}
+#section4 ul li img{border: 0 solid #fff; border-radius: 25px;}
 
-#section5{margin-bottom: 50px;}
+#section5{margin-bottom: 120px;}
 #section5 .inner{position: relative; z-index: 9999;}
+#section5 img{width: 100%;}
 #section5 .franchise_bt{position: absolute; bottom: 124px; left: 70px;}
 /* +++++++++++++++++++++++++++++++++ 푸터 +++++++++++++++++++++++++++++++++ */
 #footer .inner{display: flex; flex-direction: row; flex-wrap: nowrap;
