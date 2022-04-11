@@ -42,18 +42,21 @@ body{background-image: url(../images/bg.png);}
 /* +++++++++++++++++++++++++++++++++ 섹션1,2,3,4,5 +++++++++++++++++++++++++++++++++ */
 #section1 .subhd_bg{position: relative; top:120px; margin-bottom: 50px;}
 #section1 .subhd_bg img{width: 100%;}
-#section1 .inner{position: absolute; top: 346px; left: 923px; color: #fff;}
-#section1 .sub_menu{font-size: 40px; margin-bottom: 100px;}
+#section1 .inner{color: #fff;}
+#section1 .sub_menu{position: absolute; top: 346px; left: 923px; font-size: 40px; margin-bottom: 100px;}
+#section1 .sub_bar{position: absolute; top: 513px; left: 720px;}
 #section1 .sub_bar ul{display: flex; flex-direction: row; flex-wrap: nowrap;
                        font-size: 24px;}
+#section1 .sub_bar ul li{margin-right: 100px;}
 
-#section2{margin-bottom: 85px;}
+#section2{margin-bottom: 85px; margin-top: 170px;}
+#section2 .inner{position: absolute; left: 250px;}
 #section2 .mini_nav{display: flex; flex-direction: row; flex-wrap: nowrap;
                     font-size: 13px; color: 818181; padding-left: 20px;
                      background-image: url(../images_sub/sub_homeicon.png);
                      background-repeat: no-repeat; background-position: left;}
 
-#section3{margin-bottom: 500px;}
+#section3{margin-bottom: 500px; padding-top: 85px;}
 #section3 .inner{border-bottom: 3px solid #C51C1C;}
 #section3 ul{display: flex; flex-direction: row; flex-wrap: wrap;
              margin-bottom: 40px;}
