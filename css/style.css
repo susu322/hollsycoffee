@@ -117,7 +117,7 @@ body{background-image: url(../images/bg.png);}
             background-image: url(../images/redcircle.png); background-repeat: no-repeat;
             background-position: top right;}
 #section4 .sns_id{ text-align: center; font-size: 16px; margin-left: 9px; margin-bottom: 70px;}
-#section4 ul{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;}
+#section4 ul{display: flex; flex-direction: row; flex-wrap: nowrap; margin-left: 57px;}
 #section4 ul li>img{border: 0; border-radius: 25px;}
 
 #section5{margin-bottom: 50px;}
