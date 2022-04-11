@@ -7,7 +7,7 @@ body{background-image: url(../images/bg.png);}
 
 /* +++++++++++++++++++++++++++++++++ 픽스 +++++++++++++++++++++++++++++++++ */
 #chatbot{position: fixed; z-index: 99999; bottom: 30px; right: 120px;}
-#popup{position: fixed; z-index: 99999; bottom: 30px; right: 280px;}
+#popup{position: fixed; z-index: 99999; bottom: 30px; right: 280px; display: none;}
 
 /* +++++++++++++++++++++++++++++++++ 헤더 +++++++++++++++++++++++++++++++++ */
 #header{background-color: rgba(0, 0, 0, 0.03); height: 120px; width: 100%; position: absolute;
