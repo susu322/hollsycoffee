@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* 저장된 글꼴 파일 선언*/
+@font-face { font-family : font_NanumSquare; src : url(../font/AnyConv.com__NanumSquareEB.woff), 
+            url(../font/NanumSquareB.woff), url(../font/NanumSquareR.woff), url(../font/NanumSquareL.woff);}
+
+* {margin:0; padding:0;}
+html{font-size:16px;}
+body{font-size:16px;
+      color:#222222;
+      font-family: 'NanumSquareB' }
+ul, ol, li{list-style-type:none}
+img, fieldset{border:none;vertical-align: middle;}
+/* vertical-align: 이미지 옆에 글씨 위치 정렬 / outline: 0; */
+hr {clear:both;border:none} /* 라인 줄 만들때 */
+a {color:inherit;text-decoration:none}
+table{border-collapse:collapse}
+input, textarea {color:inherit;font-size:inherit;
+       font-family:inherit;
+       vertical-align: middle; outline: 0;}
+/* vertical-align: 텍스트가 적절히 가운데로 정렬 / outline: 0; */
+button{outline:0}
