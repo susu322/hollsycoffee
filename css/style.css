@@ -92,7 +92,8 @@ body{background-image: url(../images/bg.png);}
 #section2 ul{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;}
 #sectino2 li img{width:100%;}
 #section2 .sec2_text{text-align: center; font-size: 1rem; font-weight: bold; margin-top: 15px;}
-#section2 .solid_up:hover{border-bottom: 2.5px solid #C51C1C;}
+#section2 .solid_up:hover{color:#C51C1C}
+#section2 .slick-slide img{margin: 18px;}
 #section2 .slick-arrow {display: block; position: absolute; top: 50%; z-index: 999;}
 #section2 .slick-arrow.slick-prev {left: 28px; border: none; font-size: 0;
                                     width: 18px; height: 39px; background: none;
