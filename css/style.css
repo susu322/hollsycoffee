@@ -6,7 +6,9 @@
 body{background-image: url(../images/bg.png);}
 
 /* +++++++++++++++++++++++++++++++++ 픽스 +++++++++++++++++++++++++++++++++ */
-#chatbot{position: fixed; z-index: 99999; bottom: 30px; right: 120px;}
+#chatbot{position: fixed; z-index: 99999; bottom: 30px; right: 90px;
+        height: 60px; padding: 7px; margin: 0 auto 5px; text-align: center;
+        background: #fff; border-radius: 50px; box-shadow: 0 3px 10px 0 rgba(0,0,0,.15);}
 #popup{position: fixed; z-index: 99999; bottom: 30px; right: 280px; display: none;}
 
 /* +++++++++++++++++++++++++++++++++ 헤더 +++++++++++++++++++++++++++++++++ */
@@ -30,8 +32,8 @@ body{background-image: url(../images/bg.png);}
                             background: #000; position: absolute; left:0}
 
 #nav .nav_left{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: center;}
-#nav .nav_left .blue{color: blue;}
 #nav .nav_left > li{width: 110px; position: relative; text-align: center;}
+#nav .nav_left .blue{color: blue;}
 #nav .nav_left .margin_r{padding-right: 5px;}
 #nav .nav_left > li > a{width: 100%; font-size: 1.1rem; font-weight: bold; padding-bottom: 46px;}
 #nav .nav_left .border:hover{border-bottom: 2px solid #C51C1C; padding-bottom: 5px;}
@@ -92,12 +94,12 @@ body{background-image: url(../images/bg.png);}
 #section2 ul{display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-evenly;}
 #sectino2 li img{width:100%;}
 #section2 .sec2_text{text-align: center; font-size: 1rem; font-weight: bold; margin-top: 15px;}
-#section2 .solid_up:hover{color:#C51C1C}
-#section2 .slick-slide img{margin: 18px;}
+#section2 .solid_up:hover{color: #C51C1C;}
 #section2 .slick-arrow {display: block; position: absolute; top: 50%; z-index: 999;}
 #section2 .slick-arrow.slick-prev {left: 28px; border: none; font-size: 0;
                                     width: 18px; height: 39px; background: none;
-                                    background-image: url(../images/main_bt3.png); background-repeat: no-repeat;}
+                                    background-image: url(../images/main_bt3.png); background-repeat: no-repeat;
+                                    }
 #section2 .slick-arrow.slick-next {right: 28px;  border: none; font-size: 0;
                                     width: 18px; height: 39px; background: none;
                                     background-image: url(../images/main_bt4.png); background-repeat: no-repeat;}

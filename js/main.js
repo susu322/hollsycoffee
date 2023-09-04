@@ -1,12 +1,9 @@
 $(function(){
     $('.slide_img').slick({ //메인슬라이드
-      infinite: true,
-      slidesToShow : 1,
-      arrows : false, 
+      arrows : true, 
       dots: true,
-      autoplay: true,
-      autoplaySpeed : 2300,
-      pauseOnHover : true
+      slidesToShow : 1,
+      speed : 500
     });
 
     $(".newsbox_list").slick({ //소식 바
