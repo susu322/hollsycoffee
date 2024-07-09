@@ -56,16 +56,11 @@ body{background-image: url(../images/bg.png);}
 #slide .slick-arrow.slick-next {right: 253px;  border: none; font-size: 0;
                         width: 33px; height: 75px; background: none;
                         background-image: url(../images/main_bt2.png); background-repeat: no-repeat;}
-#slide .slick-dots{position: absolute; bottom: 50px; right: 50%; display: flex; flex-direction: row;}
-#slick-slide-control00{background: none; border: 0; font-size: 0;
-                        width: 20px; height: 21px;
-                        background-image: url(../images/slide_star.png);
-                        background-repeat: no-repeat;
-                        margin-right: 8px; margin-bottom: 5px;}
-#slick-slide-control01{background: none; border: 0; font-size: 0;
-                        width: 13px; height: 13px;
-                        background-image: url(../images/slide_phasor.png);
-                        background-repeat: no-repeat;}
+
+#slide .slick-dots{position: absolute; bottom: 80px; right: 50%; display: flex; flex-direction: row;}
+#slide .slick-dots li button{background: url(../images/slide_phasor.png) no-repeat 0 0; text-indent: -9999px; overflow: hidden; border: none;
+                                            padding: 0 11px;}
+#slide .slick-dots .slick-active button{background: url(../images/slide_star.png) no-repeat 0 -2px;}
 
 #setion1{position: absolute; bottom: 100px;}
 #section1 .inner{position: relative;}
